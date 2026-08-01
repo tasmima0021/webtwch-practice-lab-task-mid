@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="keywords" content="Portfolio, Student, HTML, Web Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Your Name</h1>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#education">Education</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Biography Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am a Computer Science student. I am learning HTML,
+                CSS and JavaScript. I want to become a Web Developer.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+
+            <h2>Educational Qualification</h2>
+
+            <table border="1" cellpadding="10">
+
+                <tr>
+                    <th>Degree</th>
+                    <th>Institute</th>
+                    <th>Year</th>
+                </tr>
+
+                <tr>
+                    <td>BSc in CSE</td>
+                    <td>AIUB</td>
+                    <td>2026</td>
+                </tr>
+
+                <tr>
+                    <td>HSC</td>
+                    <td>Your College</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>Your School</td>
+                    <td>2020</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label>Name:</label><br>
+                <input type="text" placeholder="Enter your name"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Enter your email"><br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="5" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Send">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    
+    <footer>
+
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p
+
+    </footer>
+
+</body>
+
+</html>
