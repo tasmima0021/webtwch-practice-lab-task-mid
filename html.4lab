@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="TasteHub Restaurant Menu">
+
+    <title>TasteHub Restaurant Menu</title>
+</head>
+
+<body>
+
+<header id="top">
+
+    <h1>TasteHub Restaurant</h1>
+
+    <p>Deliciousness Delivered Fresh Every Day!</p>
+
+    <img src="logo.jpg" width="100" alt="Restaurant Logo">
+
+    <nav>
+        <a href="#starters">Starters</a> |
+        <a href="#maincourse">Main Course</a> |
+        <a href="#desserts">Desserts</a> |
+        <a href="#drinks">Drinks</a>
+    </nav>
+
+    <hr>
+
+</header>
+
+
+<main>
+<section id="starters">
+
+<h2>Starters</h2>
+
+<img src="starter.jpg" width="150" alt="Starter">
+
+<ul>
+<li><b>Chicken Soup</b> - Hot chicken soup - $5</li>
+<li><b>French Fries</b> - Crispy fries - $4</li>
+</ul>
+
+<a href="#top">Back to Top</a>
+
+<hr>
+
+</section>
+
+
+<section id="maincourse">
+
+<h2>Main Course</h2>
+
+<img src="main.jpg" width="150" alt="Main Course">
+
+<ul>
+<li><b>Chicken Burger</b> - Cheese burger - $8</li>
+<li><b>Fried Rice</b> - Rice with chicken - $10</li>
+</ul>
+
+<a href="#top">Back to Top</a>
+
+<hr>
+
+</section>
+
+<section id="desserts">
+
+<h2>Desserts</h2>
+
+<img src="dessert.jpg" width="150" alt="Dessert">
+
+<ul>
+<li><b>Ice Cream</b> - Vanilla ice cream - $3</li>
+<li><b>Cake</b> - Chocolate cake - $4</li>
+</ul>
+
+<a href="#top">Back to Top</a>
+
+<hr>
+
+</section>
+<section id="drinks">
+
+<h2>Drinks</h2>
+
+<img src="drink.jpg" width="150" alt="Drink">
+
+<ul>
+<li><b>Coffee</b> - Hot coffee - $2</li>
+<li><b>Orange Juice</b> - Fresh juice - $3</li>
+</ul>
+
+<a href="#top">Back to Top</a>
+
+<hr>
+
+</section>
+
+<fieldset>
+
+<legend><b>Chef's Special</b></legend>
+
+<p><b>Grilled Chicken</b> - $15</p>
+
+<p><b>Special Pizza</b> - $12</p>
+
+</fieldset>
+
+<br>
+
+
+<aside>
+
+<h3>Today's Offer</h3>
+
+<p>Get 10% Discount on all Burgers!</p>
+
+</aside>
+
+<br>
+
+<a href="#">Book a Table</a>
+
+</main>
+
+<hr>
+
+<footer>
+
+<p>Address: Dhaka, Bangladesh</p>
+
+<p>Phone: 017XXXXXXXX</p>
+
+<p>Opening Hours: 10 AM - 10 PM</p>
+
+<p>
+<a href="#">Facebook</a> |
+<a href="#">Instagram</a>
+</p>
+
+<p>&copy; 2025 TasteHub Restaurant | All Rights Reserved</p>
+
+<a href="#top">Back to Top</a>
+
+</footer>
+
+</body>
+</html>
