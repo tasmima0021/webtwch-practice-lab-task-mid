@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ElectroMart - Product Catalogue</title>
+
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Electronic Product Catalogue">
+</head>
+
+<body>
+
+  
+    <header>
+
+        <h1>ElectroMart</h1>
+
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Products</a> |
+            <a href="#">Contact</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    
+    <main>
+
+        <fieldset>
+
+            <legend><b>Available Products</b></legend>
+
+            <table border="1" cellpadding="10">
+
+                <caption><b>ElectroMart Product Catalogue</b></caption>
+
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td><img src="phone.jpg" width="80"></td>
+                    <td><b>Smartphone</b></td>
+                    <td>6.5 inch display<br>128GB Storage</td>
+                    <td>$400</td>
+                    <td><a href="#">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="laptop.jpg" width="80"></td>
+                    <td><b>Laptop</b></td>
+                    <td>Intel i5<br>8GB RAM</td>
+                    <td>$700</td>
+                    <td><a href="#">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="watch.jpg" width="80"></td>
+                    <td><b>Smart Watch</b></td>
+                    <td>Heart Rate<br>Water Resistant</td>
+                    <td>$120</td>
+                    <td><a href="#">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="speaker.jpg" width="80"></td>
+                    <td><b>Bluetooth Speaker</b></td>
+                    <td>Portable<br>10 Hours Battery</td>
+                    <td>$60</td>
+                    <td><a href="#">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="tablet.jpg" width="80"></td>
+                    <td><b>Tablet</b></td>
+                    <td>10 inch Display<br>64GB Storage</td>
+                    <td>$300</td>
+                    <td><a href="#">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="5"><b>Total Products: 5</b></td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+    </main>
+
+    <hr>
+
+    
+    <footer>
+
+        <p>&copy; 2026 ElectroMart</p>
+
+        <p>Email: electromart@gmail.com</p>
+
+    </footer>
+
+</body>
+
+</html>
