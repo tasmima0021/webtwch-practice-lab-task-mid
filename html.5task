@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Your Name">
+<meta name="description" content="DailyFlash News Website">
+
+<title>DailyFlash | Home</title>
+
+</head>
+
+<body id="top">
+
+<header>
+
+<h1>DailyFlash</h1>
+
+<p>Your Source for Instant News</p>
+
+<img src="logo.jpg" width="80">
+
+<nav>
+<ul>
+<li><b><a href="index.html">Home</a></b></li>
+<li><a href="world.html">World</a></li>
+<li><a href="sports.html">Sports</a></li>
+<li><a href="#">Tech</a></li>
+<li><a href="#">Lifestyle</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<hr>
+
+</header>
+
+<main>
+
+<article>
+
+<h2>World Leaders Meet for Climate Summit</h2>
+
+<small>August 2, 2026</small><br><br>
+
+<img src="world.jpg" width="180">
+
+<p>World leaders gathered to discuss climate change and future environmental plans.</p>
+
+<a href="world.html">Read More</a>
+
+</article>
+
+<hr>
+
+<article>
+
+<h2>National Team Wins Championship</h2>
+
+<small>August 2, 2026</small><br><br>
+
+<img src="sports.jpg" width="180">
+
+<p>The national team won the final match after an exciting performance.</p>
+
+<a href="sports.html">Read More</a>
+
+</article>
+
+<hr>
+
+<article>
+
+<h2>New Smartphone Sets Record Sales</h2>
+
+<small>August 2, 2026</small><br><br>
+
+<img src="phone.jpg" width="180">
+
+<p>A new smartphone has become the fastest-selling device this year.</p>
+
+<a href="#">Read More</a>
+
+</article>
+
+</main>
+
+<hr>
+
+<aside>
+
+<h3>Top Headlines</h3>
+
+<ul>
+<li>Climate Summit</li>
+<li>Sports Championship</li>
+<li>Tech News</li>
+<li>Health Update</li>
+<li>Business News</li>
+</ul>
+
+<h3>Trending</h3>
+
+<p>New Smartphone Launch</p>
+
+<div>
+<b>Advertisement</b><br>
+Buy Laptop at 20% Off!
+</div>
+
+</aside>
+
+<hr>
+
+<footer>
+
+<p>&copy; 2025 DailyFlash</p>
+
+<p>
+<a href="#">Facebook</a> |
+<a href="#">X</a> |
+<a href="#">Instagram</a> |
+<a href="#">LinkedIn</a>
+</p>
+
+<p>All Rights Reserved.</p>
+
+<a href="#top">Back to Top</a>
+
+</footer>
+
+</body>
+</html>
