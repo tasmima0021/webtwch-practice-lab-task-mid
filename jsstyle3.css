@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:white;
+    color:black;
+}
+
+header{
+    background:lightgray;
+    padding:20px;
+    text-align:center;
+}
+
+section{
+    padding:30px;
+    text-align:center;
+}
+
+footer{
+    background:lightgray;
+    padding:20px;
+    text-align:center;
+}
