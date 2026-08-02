@@ -1,22 +1,50 @@
+
 body {
     font-family: Arial, sans-serif;
-    margin: 30px;
+    margin: 40px;
 }
 
 h1 {
     text-align: center;
 }
 
+.container {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: 50px auto;
+    border: 2px solid #000;
+}
 
 .box {
-    width: 300px;
-    height: 200px;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 20px auto;
-    background-color: #f4f4f4;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-   
+.box1 {
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
 
-    overflow: auto;        
+
+.box2 {
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+.box3 {
+    background-color: green;
+    top: 120px;
+    left: 120px;
+    z-index: 3;
 }
