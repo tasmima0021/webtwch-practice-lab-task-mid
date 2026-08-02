@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Portfolio</h1>
+
+<button onclick="changeTheme()">Dark / Light Mode</button>
+
+<h2 id="greeting"></h2>
+
+<nav>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('contact')">Contact</button>
+</nav>
+
+<hr>
+
+<div id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello! I am a CSE student learning Web Technologies.</p>
+</div>
+
+<div id="projects" class="section" style="display:none;">
+    <h2>Projects</h2>
+    <ul>
+        <li>Portfolio Website</li>
+        <li>Student Management System</li>
+        <li>Text Analyzer</li>
+    </ul>
+</div>
+
+<div id="contact" class="section" style="display:none;">
+    <h2>Contact</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <br><br>
+
+    <input type="text" id="email" placeholder="Enter Email">
+    <br><br>
+
+    <textarea id="message" placeholder="Enter Message"></textarea>
+    <br><br>
+
+    <button onclick="validateForm()">Submit</button>
+
+    <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
