@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+header{
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: white;
+    padding: 15px 30px;
+    border-bottom: 3px solid #ff9800;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header nav a:hover{
+    color: #ff9800;
+}
+
+
+main{
+    padding: 30px;
+}
+
+main h1{
+    margin-bottom: 20px;
+}
+
+main p{
+    margin-bottom: 20px;
+}
